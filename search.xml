@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>【文献研读】Robustness Analysis as Explanatory Reasoning</title>
+      <link href="/2019/08/30/LW1/"/>
+      <url>/2019/08/30/LW1/</url>
+      
+        <content type="html"><![CDATA[<p><em>本文来源： Brit.J.Phil.Sci 69(2018),275-300  Jonah N.Schupbach</em></p><p>#一 简述#<br>本文主要考察并批判了Robustness Analysis的3种基于概率论独立性的解释模型，并重新给出了一个基于解释性推理（Explanatory Reasoning)的解释模型，梳理了Robustness Analysis的内在逻辑并建立了相应的数学模型。</p><p>#二 文章研读#</p><h2 id="1-Robustness-Analysis-in-Science"><a href="#1-Robustness-Analysis-in-Science" class="headerlink" title="1 Robustness Analysis in Science"></a>1 Robustness Analysis in Science</h2><p>本节提出了Robustness Analysis的几个经典案例以及简单定义。<br>如何初步描述“Robustness”？简单来说，Robustness Analysis就是如果即使改变实验的“means of detection”以及某些变量却可以同样观测到某个特定现象，那么就可以建构或证实某个相关的科学假设。这一过程被称之为Robustness Analysis。</p><p>这几个经典案例包括:<br>(i)布朗运动的发现与解释：布朗发现花粉颗粒的无规则运动后，众多的科学家力图通过实验研究这一现象。在实验中，科学家改变了相应的物质粒子、介质、光照等等相关因素，却仍然可以观测到布朗运动，（在某种程度上）证实了布朗运动的Robustness。最终爱因斯坦在1905年提出了分子理论与热力学理论，科学家不得不接受这一理论最终为布朗运动提供了解释。<br>(ii)沃尔泰拉原理（种群竞争排除）：应用多个基本生物学原理相同，但简化性假设*（simplifying assumption) 不同的生物学模型都可以得出沃尔泰拉原理所呈现的结果。<br>(iii)其他：阿伏伽德罗常数、温室效应等等<br>Schupbach将这些案例简单分为两类：一种是基于经验性观察的科学研究，一种是基于模型分析的科学研究。在本文的讨论中，Schupbach 将不再区分这两种情况。</p><p>在该节的末尾，Schupbach谈到，RA理论最重要的问题就是如何定义各次实验的“diversity”.这也是下文的核心问题。</p><p>*简化性假设：打个比方，“某流体是理想流体”、“没有天敌、食物与空间绝对充足的种群”都是简化性假设。这类假设往往与现实情况是不太相符的。</p><h2 id="2-RA-Diversity-and-Independence"><a href="#2-RA-Diversity-and-Independence" class="headerlink" title="2 RA Diversity and Independence"></a>2 RA Diversity and Independence</h2><p>最早对Robustness Analysis的讨论来自于生物学家Richard Levins。他谈到，科学研究的一个核心问题在于如何判断实验结果是不是某个简化性假设所导致的不具有普遍性的结果，而RA就是一个判断的好方法。通过基于共同的生物学基本前提但是简化性假设不同的多个模型的演算若得出了Robustness的结果，模型之间的”diversity”保证了结果与简化性假设是无关的，而是有“essential of a model”决定的。他把这称为“intersection of independent lies”。<br>这里引出了RA的关键性问题：RA的证实力实际来自于“diversity of means”,那么我们必须要澄清”diversity” 的本质究竟是什么。<br>在考察几个经典的RA诠释前，Schupbach先阐释了评价一个RA诠释的标准有两点：（1）是否符合科学实践 （2）是否符合”normative intuition”</p><h3 id="2-1-Uncondition-probabilistic-independence"><a href="#2-1-Uncondition-probabilistic-independence" class="headerlink" title="2.1 Uncondition probabilistic independence"></a>2.1 Uncondition probabilistic independence</h3><p>这一个阐释模型来自于Levins 不完整的叙述：即用现象在概率论意义上是否相互独立来评判两个means是否是不同的。<br>Schupbath对这个模型的攻击基于各个means可能有潜在的共同点或关联：如果基于mean i 的Ri的现象出现了，那么若mean j 与mean i有某些共同点或关联，则会导致在人们的预测中P（Rj)&lt;P(Rj|Ri) (Ri与Rj同现象）。Schupbath引用(i)(ii)的科学实践来说明用这个标准的话，大部分的mean都会是相关的。</p><p>但是这里Schupbath的分析似乎总有些诡辩之处。他将实验者主观的一些基于两个mean的某些一致性的<em>类比</em>加入到概率的计算中。这在某种程度上似乎混淆了相对客观的“概率”和基于主观推测的“预期”。</p><h3 id="2-2-Reliability-independence"><a href="#2-2-Reliability-independence" class="headerlink" title="2.2 Reliability independence"></a>2.2 Reliability independence</h3><p>这一个阐释模型来自于Wimsatt([1994],p.197)。即用“失败的概率”来区分independent。这与当时所谓的”independent lies”更接近：导致我们失败(go astray)的东西就是区分不同means的标准。这样的话，某一个mean是失败的将不会对其他mean是否可靠产生影响。这个模型甚至还可以模拟出随着实验次数的增多，失败的概率将会下降。<br>Schupbath的反驳和2.1很像。科学实践中很多的means(具体就是(i),(ii))也完全可以引我们走上同一条歧途。因为means之中有一致性，两个means可能会得出相同的错误结论。一个mean的错误就由此会降低另一个mean的可靠性。</p><h3 id="2-3-Confirmational-and-condition-Independence"><a href="#2-3-Confirmational-and-condition-Independence" class="headerlink" title="2.3 Confirmational and condition Independence"></a>2.3 Confirmational and condition Independence</h3><p>这一个阐释模型来自于Lloyd([2009],[2010])。她引入了confirmation这一新的评价标准，而抛弃了单从“现象”（result)出发的诠释。两个means是RA-diverse的，即意为两个的结果在同等程度上证实了假设H，而不管我们是否用另一个means观测到了同样的现象。这就意味着c(H,Ri|Rj)=C(H,Ri),c(H,Rj|Ri)=C(H,Rj)。【c(x,y)意味y导出x的“证实度”——the confirmational degree】Fitelson指出，这个模型还有一个隐含的条件是：P(Ri&amp;Rj|H)=P(Ri|H)*P(Rj|H).</p><p>Schupbath指出这一模型同样与科学实践不符。以（1）为例子。Perrin假设是液体介质中存在不可视的“intenal movement”.R1是一种特定花粉观察到了布朗运动，R2是其他某种花粉观察到了布朗运动。R_2会削弱R_1的证实力。Schupbath试图指出的是，科学研究中，不同的means之间很有可能会互相削弱证明力度，也就是说，即使从confirmation的角度来看，依然存在潜在的相关性。</p><h3 id="2-4-Partial-independence"><a href="#2-4-Partial-independence" class="headerlink" title="2.4 Partial independence?"></a>2.4 Partial independence?</h3><p>Schupbath最后指出，即使我们寻求一种部分的独立，即考虑基于以上三种模型所给出的独立的“独立度”也是不行的。因为关键并不在此。因为Schupbath认为，以上三种模型根本就是不正确的，基于以上三种模型的“独立度”根本无法反映实际科学中RA的功能。</p><h2 id="3-Robustness-Analysis-as-Explanatory-Reasoning"><a href="#3-Robustness-Analysis-as-Explanatory-Reasoning" class="headerlink" title="3 Robustness Analysis as Explanatory Reasoning"></a>3 Robustness Analysis as Explanatory Reasoning</h2><p>在Schupbath看来，用概率论的独立去解释RA-diversity是根本不行的。他力图建立一种RA的新的理解——基于explanation与elimination的理解。</p><h3 id="3-1-Explanatorily-discriminating-means-of-detection"><a href="#3-1-Explanatorily-discriminating-means-of-detection" class="headerlink" title="3.1 Explanatorily discriminating means of detection"></a>3.1 Explanatorily discriminating means of detection</h3><p>Schupbath认为，RA的过程实际上是eliminate different sets of H’s competition.通过RA最终得出一个唯一的结论。用(ii)来解释就是，现在有可能是模型中任意一个简化性假设所导致的这个结果，RA就是要不停改变这些简化性假设，最后使简化性假设被剔除出解释的集合。<br>因此，RA-diversity就是他们的现象一个能支持特定的H，另一个不能。Schupbath给出的定义如下：<br>    <em>Means of detecting R are RA with respect to potential explanation(target hypothesis)H and its competitors to the extent that their detections(R1,R2,…)can be put into a sequence for which any memeber is explanatorily discriminating between H and some competing explanations not yet ruled out by the prior members of that sequence</em><br>也就是说，RA-diversity的关键是功能性的，即看他们能否排除掉竞争假设。他们可能很多部分高度相似，但是有一个变量得到了控制，从而导致可以排除掉一个特定的结论。</p><p>这里我们可以清晰地看出Schupbath的RA诠释模型。首先要提醒的一点是，RA是一个完整的过程，我们考虑的是diversity是如何正当地证明结论的，这也就意味着，RA-diversity必然是一个以”实验结果“为导向的概念。这也就是为什么，好像我们预先知道实验结果，这就是因为只有特定的一些means才能被看做是RA逻辑的一部分，RA不是实验方法，某种程度上说是一套论证逻辑。另外，Schupbath的模型也许会让我们想起“控制变量法”。的确，这两个东西在逻辑上有一致性，但是控制变量法是一个实验方法，它是一个探究性的以”实验操作”为导向的概念，而RA更偏向是证实性的一套论证分析。</p><h3 id="3-2-The-Logic-of-Robustness-analysis"><a href="#3-2-The-Logic-of-Robustness-analysis" class="headerlink" title="3.2 The Logic of Robustness analysis"></a>3.2 The Logic of Robustness analysis</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科学哲学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 一般科学哲学 </tag>
+            
+            <tag> 文献研读 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【笔记】科学革命的结构&lt;第十四章&gt;</title>
       <link href="/2019/08/27/KG7/"/>
       <url>/2019/08/27/KG7/</url>

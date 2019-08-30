@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>【文献研读】Robustness Analysis as Explanatory Reasoning | Wang Cen | Vanishing Contrails</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="一般科学哲学,文献研读">
+    <meta name="description" content="本文来源： Brit.J.Phil.Sci 69(2018),275-300  Jonah N.Schupbach #一 简述#本文主要考察并批判了Robustness Analysis的3种基于概率论独立性的解释模型，并重新给出了一个基于解释性推理（Explanatory Reasoning)的解释模型，梳理了Robustness Analysis的内在逻辑并建立了相应的数学模型。 #二 文章研">
+<meta name="keywords" content="一般科学哲学,文献研读">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【文献研读】Robustness Analysis as Explanatory Reasoning">
+<meta property="og:url" content="http://TyrionLX.github.io/2019/08/30/LW1/index.html">
+<meta property="og:site_name" content="Wang Cen">
+<meta property="og:description" content="本文来源： Brit.J.Phil.Sci 69(2018),275-300  Jonah N.Schupbach #一 简述#本文主要考察并批判了Robustness Analysis的3种基于概率论独立性的解释模型，并重新给出了一个基于解释性推理（Explanatory Reasoning)的解释模型，梳理了Robustness Analysis的内在逻辑并建立了相应的数学模型。 #二 文章研">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-30T08:00:51.732Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【文献研读】Robustness Analysis as Explanatory Reasoning">
+<meta name="twitter:description" content="本文来源： Brit.J.Phil.Sci 69(2018),275-300  Jonah N.Schupbach #一 简述#本文主要考察并批判了Robustness Analysis的3种基于概率论独立性的解释模型，并重新给出了一个基于解释性推理（Explanatory Reasoning)的解释模型，梳理了Robustness Analysis的内在逻辑并建立了相应的数学模型。 #二 文章研">
+    
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">Wang Cen</h5>
+          <a href="mailto:1903128329@qq.com" title="1903128329@qq.com" class="mail">1903128329@qq.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                Home
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                Categories
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/about"  >
+                <i class="icon icon-lg icon-link"></i>
+                About
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">【文献研读】Robustness Analysis as Explanatory Reasoning</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">【文献研读】Robustness Analysis as Explanatory Reasoning</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2019-08-30T02:44:22.000Z" itemprop="datePublished" class="page-time">
+  2019-08-30
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/科学哲学/">科学哲学</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-Robustness-Analysis-in-Science"><span class="post-toc-number">1.</span> <span class="post-toc-text">1 Robustness Analysis in Science</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-RA-Diversity-and-Independence"><span class="post-toc-number">2.</span> <span class="post-toc-text">2 RA Diversity and Independence</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-1-Uncondition-probabilistic-independence"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">2.1 Uncondition probabilistic independence</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-2-Reliability-independence"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">2.2 Reliability independence</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-3-Confirmational-and-condition-Independence"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">2.3 Confirmational and condition Independence</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-4-Partial-independence"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">2.4 Partial independence?</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-Robustness-Analysis-as-Explanatory-Reasoning"><span class="post-toc-number">3.</span> <span class="post-toc-text">3 Robustness Analysis as Explanatory Reasoning</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-1-Explanatorily-discriminating-means-of-detection"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">3.1 Explanatorily discriminating means of detection</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#3-2-The-Logic-of-Robustness-analysis"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">3.2 The Logic of Robustness analysis</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-LW1"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">【文献研读】Robustness Analysis as Explanatory Reasoning</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2019-08-30 10:44:22" datetime="2019-08-30T02:44:22.000Z"  itemprop="datePublished">2019-08-30</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/科学哲学/">科学哲学</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p><em>本文来源： Brit.J.Phil.Sci 69(2018),275-300  Jonah N.Schupbach</em></p>
+<p>#一 简述#<br>本文主要考察并批判了Robustness Analysis的3种基于概率论独立性的解释模型，并重新给出了一个基于解释性推理（Explanatory Reasoning)的解释模型，梳理了Robustness Analysis的内在逻辑并建立了相应的数学模型。</p>
+<p>#二 文章研读#</p>
+<h2 id="1-Robustness-Analysis-in-Science"><a href="#1-Robustness-Analysis-in-Science" class="headerlink" title="1 Robustness Analysis in Science"></a>1 Robustness Analysis in Science</h2><p>本节提出了Robustness Analysis的几个经典案例以及简单定义。<br>如何初步描述“Robustness”？简单来说，Robustness Analysis就是如果即使改变实验的“means of detection”以及某些变量却可以同样观测到某个特定现象，那么就可以建构或证实某个相关的科学假设。这一过程被称之为Robustness Analysis。</p>
+<p>这几个经典案例包括:<br>(i)布朗运动的发现与解释：布朗发现花粉颗粒的无规则运动后，众多的科学家力图通过实验研究这一现象。在实验中，科学家改变了相应的物质粒子、介质、光照等等相关因素，却仍然可以观测到布朗运动，（在某种程度上）证实了布朗运动的Robustness。最终爱因斯坦在1905年提出了分子理论与热力学理论，科学家不得不接受这一理论最终为布朗运动提供了解释。<br>(ii)沃尔泰拉原理（种群竞争排除）：应用多个基本生物学原理相同，但简化性假设*（simplifying assumption) 不同的生物学模型都可以得出沃尔泰拉原理所呈现的结果。<br>(iii)其他：阿伏伽德罗常数、温室效应等等<br>Schupbach将这些案例简单分为两类：一种是基于经验性观察的科学研究，一种是基于模型分析的科学研究。在本文的讨论中，Schupbach 将不再区分这两种情况。</p>
+<p>在该节的末尾，Schupbach谈到，RA理论最重要的问题就是如何定义各次实验的“diversity”.这也是下文的核心问题。</p>
+<p>*简化性假设：打个比方，“某流体是理想流体”、“没有天敌、食物与空间绝对充足的种群”都是简化性假设。这类假设往往与现实情况是不太相符的。</p>
+<h2 id="2-RA-Diversity-and-Independence"><a href="#2-RA-Diversity-and-Independence" class="headerlink" title="2 RA Diversity and Independence"></a>2 RA Diversity and Independence</h2><p>最早对Robustness Analysis的讨论来自于生物学家Richard Levins。他谈到，科学研究的一个核心问题在于如何判断实验结果是不是某个简化性假设所导致的不具有普遍性的结果，而RA就是一个判断的好方法。通过基于共同的生物学基本前提但是简化性假设不同的多个模型的演算若得出了Robustness的结果，模型之间的”diversity”保证了结果与简化性假设是无关的，而是有“essential of a model”决定的。他把这称为“intersection of independent lies”。<br>这里引出了RA的关键性问题：RA的证实力实际来自于“diversity of means”,那么我们必须要澄清”diversity” 的本质究竟是什么。<br>在考察几个经典的RA诠释前，Schupbach先阐释了评价一个RA诠释的标准有两点：（1）是否符合科学实践 （2）是否符合”normative intuition”</p>
+<h3 id="2-1-Uncondition-probabilistic-independence"><a href="#2-1-Uncondition-probabilistic-independence" class="headerlink" title="2.1 Uncondition probabilistic independence"></a>2.1 Uncondition probabilistic independence</h3><p>这一个阐释模型来自于Levins 不完整的叙述：即用现象在概率论意义上是否相互独立来评判两个means是否是不同的。<br>Schupbath对这个模型的攻击基于各个means可能有潜在的共同点或关联：如果基于mean i 的Ri的现象出现了，那么若mean j 与mean i有某些共同点或关联，则会导致在人们的预测中P（Rj)&lt;P(Rj|Ri) (Ri与Rj同现象）。Schupbath引用(i)(ii)的科学实践来说明用这个标准的话，大部分的mean都会是相关的。</p>
+<p>但是这里Schupbath的分析似乎总有些诡辩之处。他将实验者主观的一些基于两个mean的某些一致性的<em>类比</em>加入到概率的计算中。这在某种程度上似乎混淆了相对客观的“概率”和基于主观推测的“预期”。</p>
+<h3 id="2-2-Reliability-independence"><a href="#2-2-Reliability-independence" class="headerlink" title="2.2 Reliability independence"></a>2.2 Reliability independence</h3><p>这一个阐释模型来自于Wimsatt([1994],p.197)。即用“失败的概率”来区分independent。这与当时所谓的”independent lies”更接近：导致我们失败(go astray)的东西就是区分不同means的标准。这样的话，某一个mean是失败的将不会对其他mean是否可靠产生影响。这个模型甚至还可以模拟出随着实验次数的增多，失败的概率将会下降。<br>Schupbath的反驳和2.1很像。科学实践中很多的means(具体就是(i),(ii))也完全可以引我们走上同一条歧途。因为means之中有一致性，两个means可能会得出相同的错误结论。一个mean的错误就由此会降低另一个mean的可靠性。</p>
+<h3 id="2-3-Confirmational-and-condition-Independence"><a href="#2-3-Confirmational-and-condition-Independence" class="headerlink" title="2.3 Confirmational and condition Independence"></a>2.3 Confirmational and condition Independence</h3><p>这一个阐释模型来自于Lloyd([2009],[2010])。她引入了confirmation这一新的评价标准，而抛弃了单从“现象”（result)出发的诠释。两个means是RA-diverse的，即意为两个的结果在同等程度上证实了假设H，而不管我们是否用另一个means观测到了同样的现象。这就意味着c(H,Ri|Rj)=C(H,Ri),c(H,Rj|Ri)=C(H,Rj)。【c(x,y)意味y导出x的“证实度”——the confirmational degree】Fitelson指出，这个模型还有一个隐含的条件是：P(Ri&amp;Rj|H)=P(Ri|H)*P(Rj|H).</p>
+<p>Schupbath指出这一模型同样与科学实践不符。以（1）为例子。Perrin假设是液体介质中存在不可视的“intenal movement”.R1是一种特定花粉观察到了布朗运动，R2是其他某种花粉观察到了布朗运动。R_2会削弱R_1的证实力。Schupbath试图指出的是，科学研究中，不同的means之间很有可能会互相削弱证明力度，也就是说，即使从confirmation的角度来看，依然存在潜在的相关性。</p>
+<h3 id="2-4-Partial-independence"><a href="#2-4-Partial-independence" class="headerlink" title="2.4 Partial independence?"></a>2.4 Partial independence?</h3><p>Schupbath最后指出，即使我们寻求一种部分的独立，即考虑基于以上三种模型所给出的独立的“独立度”也是不行的。因为关键并不在此。因为Schupbath认为，以上三种模型根本就是不正确的，基于以上三种模型的“独立度”根本无法反映实际科学中RA的功能。</p>
+<h2 id="3-Robustness-Analysis-as-Explanatory-Reasoning"><a href="#3-Robustness-Analysis-as-Explanatory-Reasoning" class="headerlink" title="3 Robustness Analysis as Explanatory Reasoning"></a>3 Robustness Analysis as Explanatory Reasoning</h2><p>在Schupbath看来，用概率论的独立去解释RA-diversity是根本不行的。他力图建立一种RA的新的理解——基于explanation与elimination的理解。</p>
+<h3 id="3-1-Explanatorily-discriminating-means-of-detection"><a href="#3-1-Explanatorily-discriminating-means-of-detection" class="headerlink" title="3.1 Explanatorily discriminating means of detection"></a>3.1 Explanatorily discriminating means of detection</h3><p>Schupbath认为，RA的过程实际上是eliminate different sets of H’s competition.通过RA最终得出一个唯一的结论。用(ii)来解释就是，现在有可能是模型中任意一个简化性假设所导致的这个结果，RA就是要不停改变这些简化性假设，最后使简化性假设被剔除出解释的集合。<br>因此，RA-diversity就是他们的现象一个能支持特定的H，另一个不能。Schupbath给出的定义如下：<br>    <em>Means of detecting R are RA with respect to potential explanation(target hypothesis)H and its competitors to the extent that their detections(R1,R2,…)can be put into a sequence for which any memeber is explanatorily discriminating between H and some competing explanations not yet ruled out by the prior members of that sequence</em><br>也就是说，RA-diversity的关键是功能性的，即看他们能否排除掉竞争假设。他们可能很多部分高度相似，但是有一个变量得到了控制，从而导致可以排除掉一个特定的结论。</p>
+<p>这里我们可以清晰地看出Schupbath的RA诠释模型。首先要提醒的一点是，RA是一个完整的过程，我们考虑的是diversity是如何正当地证明结论的，这也就意味着，RA-diversity必然是一个以”实验结果“为导向的概念。这也就是为什么，好像我们预先知道实验结果，这就是因为只有特定的一些means才能被看做是RA逻辑的一部分，RA不是实验方法，某种程度上说是一套论证逻辑。另外，Schupbath的模型也许会让我们想起“控制变量法”。的确，这两个东西在逻辑上有一致性，但是控制变量法是一个实验方法，它是一个探究性的以”实验操作”为导向的概念，而RA更偏向是证实性的一套论证分析。</p>
+<h3 id="3-2-The-Logic-of-Robustness-analysis"><a href="#3-2-The-Logic-of-Robustness-analysis" class="headerlink" title="3.2 The Logic of Robustness analysis"></a>3.2 The Logic of Robustness analysis</h3>
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2019-08-30T08:00:51.732Z" itemprop="dateUpdated">2019-08-30 16:00:51</time>
+</span><br>
+
+
+        
+        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2019/08/30/LW1/" target="_blank" rel="external">http://TyrionLX.github.io/2019/08/30/LW1/</a>
+        
+    </div>
+    
+    <footer>
+        <a href="http://TyrionLX.github.io">
+            <img src="/img/avatar.jpg" alt="Wang Cen">
+            Wang Cen
+        </a>
+    </footer>
+</blockquote>
+
+        
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/一般科学哲学/">一般科学哲学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/文献研读/">文献研读</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://TyrionLX.github.io/2019/08/30/LW1/&title=《【文献研读】Robustness Analysis as Explanatory Reasoning》 — Wang Cen&pic=http://TyrionLX.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://TyrionLX.github.io/2019/08/30/LW1/&title=《【文献研读】Robustness Analysis as Explanatory Reasoning》 — Wang Cen&source=philosophy reading ACG" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://TyrionLX.github.io/2019/08/30/LW1/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《【文献研读】Robustness Analysis as Explanatory Reasoning》 — Wang Cen&url=http://TyrionLX.github.io/2019/08/30/LW1/&via=http://TyrionLX.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://TyrionLX.github.io/2019/08/30/LW1/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2019/08/27/KG7/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">【笔记】科学革命的结构&lt;第十四章&gt;</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+<section class="comments" id="comments">
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = 'true';
+    lazyScripts.push('//' + disqus_shortname + '.disqus.com/embed.js')
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+            <span>博客内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>Wang Cen &copy; 2015 - 2019</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://TyrionLX.github.io/2019/08/30/LW1/&title=《【文献研读】Robustness Analysis as Explanatory Reasoning》 — Wang Cen&pic=http://TyrionLX.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://TyrionLX.github.io/2019/08/30/LW1/&title=《【文献研读】Robustness Analysis as Explanatory Reasoning》 — Wang Cen&source=philosophy reading ACG" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://TyrionLX.github.io/2019/08/30/LW1/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《【文献研读】Robustness Analysis as Explanatory Reasoning》 — Wang Cen&url=http://TyrionLX.github.io/2019/08/30/LW1/&via=http://TyrionLX.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://TyrionLX.github.io/2019/08/30/LW1/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://TyrionLX.github.io/2019/08/30/LW1/" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '死鬼去哪里了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '(つェ⊂)咦!又来了!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
+
+</body>
+</html>
